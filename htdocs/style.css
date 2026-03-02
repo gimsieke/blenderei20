@@ -24,9 +24,9 @@
   --grid-gap: 5vw;
 }
 
-@media screen and (min-width: 46rem) {
+@media screen and (min-width: 52rem) {
   :root {
-    --tile-size: 14rem;
+    --tile-size: 16rem;
     --grid-gap: 1rem;
   }
 }
@@ -149,7 +149,7 @@ ul.overview > li {
   }
 } */
 
-@media screen and (min-width:44rem) {
+@media screen and (min-width:50rem) {
   main {
     max-width: calc(3 * var(--tile-size) + 2 * var(--grid-gap));
   }
